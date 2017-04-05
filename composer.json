@@ -1,0 +1,18 @@
+{
+    "name": "mah/testing",
+    "description": "en liten beskrivning",
+    "require": {
+        "catfan/medoo": "^1.2",
+        "monolog/monolog": "^1.22"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Henrik Norinder",
+            "email": "henriknorinder_88@hotmail.com"
+        }
+    ]
+}
