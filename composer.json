@@ -1,6 +1,6 @@
 {
     "name": "mah/testing",
-    "description": "en liten beskrivning",
+    "description": "göra bakgrunden gul(fast röd)",
     "require": {
         "catfan/medoo": "^1.2",
         "monolog/monolog": "^1.22"
