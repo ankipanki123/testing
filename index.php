@@ -37,24 +37,27 @@ else
 
 </head>
 
-
 <body>
+
+
 <?php
-//echo "Hello, " . $name;
 
   if(isset($_GET['id']))
   {
     echo "<h1> $data->name </h1>"  ;
     echo $data->description."<br>"."<br>";
     //echo $data->reportedBy."<br>";
+    echo "<a href=\"index.php\">Tillbaka</a><br>";
     echo "<img src=$data->image>";
 
   }
   else
   {
+
     foreach ($data as $id => $unicorn)
     {
       echo "<a href=\"index.php?id=" .$unicorn->id . "\"> " . $unicorn->name . "</a><br>";
+
     }
   }
 ?>
